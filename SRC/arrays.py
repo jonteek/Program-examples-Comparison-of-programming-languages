@@ -1,4 +1,4 @@
-
+import time
 
 array = [10,9,8,7,6,5,4,3,2,1] # Deklarerar variabeln array som en lista
 
@@ -11,7 +11,4 @@ length = len(array) # Tilldelar variabeln length längden på listan med namnet 
 array.append(0) # Lägger till värdet noll i slutet på listan med namnet array
 
 array.count(9) # Räknar hur många gånger värdet 9 förekommer i listan med namnet arrary
-
-
-
-
+print(time.clock())
